@@ -1,0 +1,1 @@
+Monitor cold surfaces for condensation risk using local temperature and humidity sensors.

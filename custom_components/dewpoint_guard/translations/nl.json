@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Dewpoint Guard",
+        "description": "A room can look dry while a cold wall or window is already close to condensation. This integration compares the calculated dew point with a measured surface temperature."
+      }
+    },
+    "abort": {
+      "already_configured": "Deze sensorcombinatie is al ingesteld."
+    },
+    "error": {},
+    "data": {
+      "air_temperature_entity": "Air temperature sensor",
+      "humidity_entity": "Relative humidity sensor",
+      "surface_temperature_entity": "Surface temperature sensor",
+      "risk_margin": "Risk margin in \u00b0C"
+    }
+  }
+}
